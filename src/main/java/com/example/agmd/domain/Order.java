@@ -85,6 +85,12 @@ public class Order {
 		userId= account.getUserId();
 		orderDate = new Date();
 		
-		billName = account.get
+		billName = account.getUserName();
+		billCity = account.getUserCity();
+		billGu = account.getUserGu();
+		billDong = account.getUserDong();
+		billAdd = account.getUserAdd();
+		billZip = account.getUserZip();
+		
 	}
 }

@@ -12,6 +12,7 @@ public class Account implements Serializable {
 	private String userGu;
 	private String userDong;
 	private String userAdd;
+	private String userZip;
 	
 	public String getUserId() {
 		return userId;
@@ -61,6 +62,13 @@ public class Account implements Serializable {
 	public void setUserAdd(String userAdd) {
 		this.userAdd = userAdd;
 	}
+	public String getUserZip() {
+		return userZip;
+	}
+	public void setUserZip(String userZip) {
+		this.userZip = userZip;
+	}
+
 
 	
 	
